@@ -61,9 +61,6 @@ section.about-me{
 }
 
 
-
-
-
 img.about-me{
     border-radius: 50%;
     margin: 10px; 
@@ -72,6 +69,7 @@ img.about-me{
     height:300px;
     object-fit:cover;
 }
+
 h2 {
     font-stretch: extra-expanded;
     color: purple;
@@ -96,31 +94,38 @@ h2 {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    /* margin: 40px; */
     transition: 0.3s;
     border-radius: 5px;
     width: 250px;
     height: 300px;
     margin-right:1rem;
-  }
+}
 
-  .card img {
-      height:150px;
-      width:auto;
-  }
+.card img {
+    height:150px;
+    width:auto;
+}
   
-  .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+}
   
-  .container {
+.container {
     /* padding: 2px 16px; */
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     text-align:center;
-  }
+}
+
+/* .group-card{
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* transition: 0.3s; */
+    /* margin: 40px;
+    max-width: 200px; */
+  } */
 
 footer {  
     /* width: auto;   */
@@ -131,8 +136,8 @@ footer {
     /* padding: 10px 30px; */
     /* border:1px solid red; */
     display:flex;
-   justify-content: space-around;
-   align-items:center;
+    justify-content: space-around;
+    align-items:center;
 }
 
 footer a:hover {
@@ -144,4 +149,4 @@ footer a:hover {
     nav {
       flex-direction: column;
     }
-  }
+}
